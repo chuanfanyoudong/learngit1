@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: post  分支
+layout: post  分支
 title: python数据分析-清理，转换，合并，重塑
 date: 2017-05-26
 tags: [逻辑回归,线性回归]
