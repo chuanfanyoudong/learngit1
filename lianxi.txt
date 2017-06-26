@@ -1,5 +1,9 @@
 ---
-layout: post  分支2
+<<<<<<< HEAD
+layout: post  分支3
+=======
+layout: post  分支1
+>>>>>>> dev
 layout: post  分支
 title: python数据分析-清理，转换，合并，重塑
 date: 2017-05-26
