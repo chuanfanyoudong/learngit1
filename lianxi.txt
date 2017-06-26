@@ -1,0 +1,38 @@
+---
+layout: post
+title: python数据分析-清理，转换，合并，重塑
+date: 2017-05-26
+tags: [逻辑回归,线性回归]
+categories: python数据分析
+description: 利用python进行数据分析
+keywords: python，numpy，pandas
+mathjax: true
+
+---
+
+# 合并数据集
+
+## DataFrame合并
+
+用到的函数是 pd.merge()
+
+    pd.merge(data1,data2,on="指定哪个键合并，默认为重叠的键，也可以用用left_on和right_on指定哪两个键合并"，how="连接方式，可以选outer（外连接），inner（内连接），left，right"
+    
+merge函数的参数可见书中P191
+
+## 轴向连接
+
+Numpy中有concatenate函数可以合并Numpy数组
+> np.concatenate([arr,arr],axis = 1)
+
+pandas中有concat函数可以解决这个问题
+
+> pd.concat([s1,s2,s3]) # 这里默认axis为0，所以为轴向连接，如果改为axis = 1，则为横向连接。
+
+
+
+
+
+
+
+
