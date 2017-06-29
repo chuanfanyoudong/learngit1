@@ -1,5 +1,5 @@
 ---
-<<<<<<< HEAD
+<<<<<<< 
 layout: post  分支3
 =======
 layout: post  分支1
